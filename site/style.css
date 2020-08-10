@@ -20,14 +20,44 @@ p {
 	
 }
 
-.title {
-	background: #31687A;
+.title1 {
+	background: #367387;
 	color: #B0E8FB;
 	position: absolute;
 	right: 0;
-	top:0;
-	width: 100px;
+	width: 150px;
 	padding: 3px;
+  top:-20px;
+  font-size: 20px;
+  text-align: center;
+  border: #56717A solid 1px;
+}
+
+.title2 {
+  background: #31687A;
+  color: #B0E8FB;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  padding: 3px;
+  top:-20px;
+  font-size: 20px;
+  text-align: center;
+  border: #56717A solid 1px; 
+
+}
+
+.title3 {
+  background: #1D3D47;
+  color: #B0E8FB;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  padding: 3px;
+  top:-20px;
+  font-size: 20px;
+  text-align: center;
+  border: #56717A solid 1px;
 }
 
 .description {
@@ -38,8 +68,8 @@ p {
 #b1 { 
   float: left;
   position: relative;
-  background-color: #50A9C7;
-  border: #56717A solid 10px;
+  background-color: #8BB8C7;
+  border: #56717A solid 1px;
   margin: 10px;
   padding: 15px;
 }
@@ -47,7 +77,8 @@ p {
 #b2 {
   float: left;
   position: relative;
-  border: #56717A solid 10px;
+  background-color: #8BB8C7;
+  border: #56717A solid 1px;
   margin: 10px;
   padding: 15px;
 }
@@ -55,7 +86,8 @@ p {
 #b3 {
   float: left;
   position: relative;
-  border: #56717A solid 10px;
+  background-color: #8BB8C7;
+  border: #56717A solid 1px;
   margin: 10px;
   padding: 15px;
 }
@@ -68,10 +100,12 @@ p {
 
   #b2 {
     width: 30%;
+
   }
 
   #b3 {
     width: 30%;
+    margin-right: 0;
   }
 
 }
@@ -85,7 +119,7 @@ p {
 
   #b2 {
     width: 48%;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   #b3 {
